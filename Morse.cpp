@@ -30,7 +30,16 @@ void Morse::a_space()
 }
 
 void Morse::b_space()
-{
+{ digitalWrite(_pin,HIGH);
+  delay(100);
   digitalWrite(_pin,LOW);
-  delay(2000);
+  delay(100);
+ digitalWrite(_pin,HIGH);
+  delay(100);
+  digitalWrite(_pin,LOW);
+  delay(100);
+ digitalWrite(_pin,HIGH);
+  delay(100);
+  digitalWrite(_pin,LOW);
+  delay(100);
 }
